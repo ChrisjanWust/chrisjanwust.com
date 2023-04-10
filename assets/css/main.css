@@ -322,6 +322,13 @@ button svg, button img {
 a {
   text-decoration: none;
 }
+a .icon {
+  filter: contrast(1) brightness(1);
+  transition: all 0.3s;
+}
+a .icon:hover {
+  filter: contrast(0.5) brightness(5);
+}
 
 row {
   display: flex;
@@ -347,6 +354,16 @@ h3 {
   margin-block-start: 0;
 }
 
+@media (max-width: 600px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .hide-on-tablet {
+    display: none;
+  }
+}
 .l-viewport {
   position: relative;
   width: 100%;
@@ -657,8 +674,8 @@ h3 {
 .intro--banner #intro-img {
   position: absolute;
   bottom: 21px;
-  right: -12px;
-  max-width: 500px;
+  right: 5px;
+  max-width: 470px;
 }
 .intro--options {
   display: flex;

@@ -14,3 +14,5 @@
 - [x] Social media links
 - [ ] Make contact form work
 - [ ] Button image icons
+- [ ] Different text link styling (see link to "World University Rank")
+- [ ] Logo spacing between C and W
