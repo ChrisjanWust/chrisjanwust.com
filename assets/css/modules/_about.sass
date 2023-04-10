@@ -43,24 +43,24 @@
       line-height: 1
       z-index: 1
 
-      &::before
-        content: ""
-        position: absolute
-        top: 60px
-        left: 268px
-        width: 30px
-        height: 30px
-        background-color: $highlight
-        border-radius: 50%
-
-      &::after
-        content: ""
-        position: absolute
-        top: 255px
-        left: 255px
-        width: 10px
-        height: 10px
-        background-color: $highlight
+      //&::before
+      //  content: ""
+      //  position: absolute
+      //  top: 60px
+      //  left: 268px
+      //  width: 30px
+      //  height: 30px
+      //  background-color: $highlight
+      //  border-radius: 50%
+      //
+      //&::after
+      //  content: ""
+      //  position: absolute
+      //  top: 255px
+      //  left: 255px
+      //  width: 10px
+      //  height: 10px
+      //  background-color: $highlight
 
     a
       padding: 5px 17px 5px 0
@@ -106,14 +106,14 @@
         size: cover
         repeat: no-repeat
 
-      &:nth-child(1)
-        background-image: url("../img/about-winners.jpg")
-
-      &:nth-child(2)
-        background-image: url("../img/about-philosophy.jpg")
-
-      &:nth-child(3)
-        background-image: url("../img/about-history.jpg")
+      //&:nth-child(1)
+      //  background-image: url("../img/about-winners.jpg")
+      //
+      //&:nth-child(2)
+      //  background-image: url("../img/about-philosophy.jpg")
+      //
+      //&:nth-child(3)
+      //  background-image: url("../img/about-history.jpg")
 
       &:hover
         h3
@@ -126,6 +126,22 @@
       font-size: 16px
       text-transform: uppercase
       transition: bottom .2s ease-in-out, left .2s ease-in-out
+
+  #github-activity
+    margin-top: 20px
+    //padding: 10px
+    max-width: 450px
+    //background: $white
+    //border-radius: 5px
+
+    img
+      width: 100%
+      filter: grayscale(25%) brightness(0.8)
+
+      &:hover
+        filter: grayscale(0%) brightness(0.9)
+
+
 
 @media (max-width: 767px)
 
