@@ -1404,15 +1404,22 @@ h3 {
   margin-bottom: 60px;
 }
 .work-request--information .information-name,
-.work-request--information .information-email {
+.work-request--information .information-email,
+.work-request--information .information-message {
   position: relative;
   width: 45%;
   height: 50px;
   font-size: 30px;
   font-weight: 300;
 }
+.work-request--information .information-message {
+  width: 100%;
+  font-size: 16px;
+  height: fit-content;
+}
 .work-request--information input[type=text],
-.work-request--information input[type=email] {
+.work-request--information input[type=email],
+.work-request--information textarea {
   width: 100%;
   padding: 0 0 5px 0;
   background-color: transparent;
@@ -1421,7 +1428,8 @@ h3 {
   border-radius: 0;
 }
 .work-request--information input[type=text]:focus,
-.work-request--information input[type=email]:focus {
+.work-request--information input[type=email]:focus,
+.work-request--information textarea:focus {
   outline: none;
 }
 .work-request--information label {

@@ -16,3 +16,4 @@
 - [ ] Button image icons
 - [ ] Different text link styling (see link to "World University Rank")
 - [ ] Logo spacing between C and W
+- [ ] SEO
